@@ -1,1 +1,57 @@
-// Here you can add other styles
+@font-face {
+  font-family: 'Vazir';
+
+  src: url('/src/fonts/vazir-wol/Vazir-Light-WOL.eot');
+  src: url('/src/fonts/vazir-wol/Vazir-Light-WOL.eot?#iefix') format('embedded-opentype'),
+  url('/src/fonts/vazir-wol/Vazir-Light-WOL.woff') format('woff'),
+  url('/src/fonts/vazir-wol/Vazir-Light-WOL.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('/src/fonts/vazir-wol/Vazir-Bold-WOL.eot');
+  src: url('/src/fonts/vazir-wol/Vazir-Bold-WOL.eot?#iefix') format('embedded-opentype'),
+  url('/src/fonts/vazir-wol/Vazir-Bold-WOL.woff') format('woff'),
+  url('/src/fonts/vazir-wol/Vazir-Bold-WOL.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Vazir';
+
+  src: url('/src/fonts/vazir-wol/Vazir-Light-WOL.eot');
+  src: url('/src/fonts/vazir-wol/Vazir-Light-WOL.eot?#iefix') format('embedded-opentype'),
+  url('/src/fonts/vazir-wol/Vazir-Light-WOL.woff') format('woff'),
+  url('/src/fonts/vazir-wol/Vazir-Light-WOL.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('/src/fonts/vazir-wol/Vazir-Bold-WOL.eot');
+  src: url('/src/fonts/vazir-wol/Vazir-Bold-WOL.eot?#iefix') format('embedded-opentype'),
+  url('/src/fonts/vazir-wol/Vazir-Bold-WOL.woff') format('woff'),
+  url('/src/fonts/vazir-wol/Vazir-Bold-WOL.ttf') format('truetype');
+  font-weight: bold;
+}
+
+
+
+body {
+  font-family: "B Nazanin" , Vazir, Tahoma, serif;
+  font-size: large;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.sidebar .nav {
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: right;
+}
+
+// scss-lint:disable NestingDepth, SelectorDepth
+
